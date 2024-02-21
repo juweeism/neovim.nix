@@ -13,5 +13,13 @@
 	    event = ["VimEnter"];
 	    command = ":Limelight";
 	}
+	{
+	    event = ["VimEnter"];
+	    command = "let g:airline#extensions#tabline#enabled = 1";
+	}
+	{
+	    event = ["VimEnter"];
+	    command = "let g:airline#extensions#tabline#enabled = 1";
+	}
     ];
 }

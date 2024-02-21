@@ -20,8 +20,6 @@
         {name = "luasnip";}
       ];
 
-    
-
       mapping = {
         "<CR>" = "cmp.mapping.confirm({ select = true })";
 	"<Tab>" = {

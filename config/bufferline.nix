@@ -3,6 +3,5 @@
     enable = true;
 
     showBufferCloseIcons = false;
-    separatorStyle = "slant";
   };
 }

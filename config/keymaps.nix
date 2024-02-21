@@ -12,13 +12,13 @@
 	    mode = "n";
 	    key = "<C-k>";
 	    options.silent = true;
-	    action = ":bnext<CR>";
+	    action = ":BufferNext";
 	}
 	{
 	    mode = "n";
 	    key = "<C-j>";
 	    options.silent = true;
-	    action = ":bprev<CR>";
+	    action = ":BufferPrevious<CR>";
 	}
 
 	# plugin keymaps 
