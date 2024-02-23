@@ -3,7 +3,7 @@
 
 My earthly neovim setup is using [nixvim](https://github.com/nix-community/nixvim), an easy configuration system for for nix users. This thing runs on any machine with nix and flake enabled. You don't have to be on NixOS, try it and have fun. __For my whole desktop setup, see [home.nix](https://github.com/jamibear/home.nix)__
 
-### Try it
+### Run anywhere
 ```
 nix run github:jamibear/home.nix
 ```
