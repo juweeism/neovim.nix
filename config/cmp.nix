@@ -10,6 +10,9 @@
 	};
     };
 
+    plugins.cmp-nvim-lua.enable = true;
+    plugins.cmp_luasnip.enable = true;
+
     plugins.nvim-cmp = {
       enable = true;
       autoEnableSources = true;
