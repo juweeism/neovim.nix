@@ -23,14 +23,12 @@
 
     sources = {
       formatting = {
-        nixfmt.enable = true;
-        nixpkgs_fmt.enable = true;
         prettierd = {
-	    enable = true;
-	    withArgs = ''
-		{filetypes = { "html", "json", "yaml", "markdown", "astro", "tsx", "jsx" },}
-	    '';
-	};
+          enable = true;
+          withArgs = ''
+	    { extra_filetypes = {"astro"}, }
+	  '';
+        };
       };
 
       code_actions = { eslint_d.enable = true; };
