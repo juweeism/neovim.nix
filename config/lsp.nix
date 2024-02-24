@@ -25,7 +25,12 @@
       formatting = {
         nixfmt.enable = true;
         nixpkgs_fmt.enable = true;
-        prettierd.enable = true;
+        prettierd = {
+	    enable = true;
+	    withArgs = ''
+		{filetypes = { "html", "json", "yaml", "markdown", "astro", "tsx", "jsx" },}
+	    '';
+	};
       };
 
       code_actions = { eslint_d.enable = true; };
