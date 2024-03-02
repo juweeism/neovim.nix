@@ -11,12 +11,10 @@
 
       html = {
 	enable = true;
-	filetypes = ["astro" "html" "typescript" "react"];
       };
 
       emmet_ls = {
 	enable = true;
-	filetypes = ["astro" "html" "typescript" "react"];
       };
 
       tsserver = {
@@ -37,21 +35,15 @@
 
   plugins.none-ls = {
     enable = true;
-    enableLspFormat = false;
 
     sources = {
       formatting = {
         prettier = {
           enable = true;
-	  disableTsServerFormatter = true;
         };
       };
 
       code_actions = { eslint_d.enable = true; };
     };
-  };
-
-  plugins.lsp-format = {
-    enable = true;
   };
 }
