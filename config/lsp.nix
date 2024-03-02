@@ -7,8 +7,26 @@
 
     servers = {
       astro.enable = true;
-      tsserver.enable = true;
       nixd.enable = true;
+
+      html = {
+	enable = true;
+	filetypes = ["astro" "html" "typescript" "react"];
+      };
+
+      emmet_ls = {
+	enable = true;
+	filetypes = ["astro" "html" "typescript" "react"];
+      };
+
+      tsserver = {
+	enable = true;
+      };
+
+      cssls = {
+	enable = true;
+	filetypes = ["astro" "css" "html"];
+      };
 
       lua-ls = {
         enable = true;
@@ -19,15 +37,13 @@
 
   plugins.none-ls = {
     enable = true;
-    enableLspFormat = true;
+    enableLspFormat = false;
 
     sources = {
       formatting = {
-        prettierd = {
+        prettier = {
           enable = true;
-          withArgs = ''
-	    { extra_filetypes = {"astro"}, }
-	  '';
+	  disableTsServerFormatter = true;
         };
       };
 
@@ -35,5 +51,7 @@
     };
   };
 
-  plugins.lsp-format.enable = true;
+  plugins.lsp-format = {
+    enable = true;
+  };
 }
