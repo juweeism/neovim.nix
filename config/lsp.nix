@@ -14,12 +14,12 @@
 
             html = {
                 enable = true;
-                filetypes = ["markdown" "css" "html" "nunjucks"];
+                filetypes = ["markdown" "css" "html"];
             };
 
             emmet_ls = {
                 enable = true;
-                filetypes = ["markdown" "css" "html" "nunjucks"];
+                filetypes = ["markdown" "css" "html"];
             };
 
 

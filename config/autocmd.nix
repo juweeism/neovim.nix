@@ -24,7 +24,7 @@
 	{
 	    event = ["BufRead" "BufNewFile"];
 	    pattern = ["*.njk"];
-	    command = "set filetype=nunjucks";
+	    command = "set filetype=html";
 	}
     ];
 }
