@@ -21,5 +21,10 @@
 	    event = ["VimEnter"];
 	    command = "let g:airline#extensions#tabline#enabled = 1";
 	}
+	{
+	    event = ["BufRead" "BufNewFile"];
+	    pattern = ["*.njk"];
+	    command = "set filetype=nunjucks";
+	}
     ];
 }

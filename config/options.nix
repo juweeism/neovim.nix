@@ -1,10 +1,12 @@
 {
 	config = {
 		options = {
-		      number = true;         # Show line numbers
-		      relativenumber = true; # Show relative line numbers
-		      shiftwidth = 4;        # Tab width should be 2
+		      number = true;         
+		      relativenumber = true; 
+		      shiftwidth = 4;        
+		      tabstop = 4;        
 		      wrap = false;
+		      expandtab = true;
 		};
 	};
 }

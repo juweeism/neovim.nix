@@ -5,16 +5,19 @@
   plugins.lsp = {
     enable = true;
 
+
     servers = {
       astro.enable = true;
       nixd.enable = true;
 
       html = {
 	enable = true;
+	filetypes = ["markdown" "css" "html" "nunjucks"];
       };
 
       emmet_ls = {
 	enable = true;
+	filetypes = ["markdown" "css" "html" "nunjucks"];
       };
 
       tsserver = {
@@ -23,7 +26,7 @@
 
       cssls = {
 	enable = true;
-	filetypes = ["astro" "css" "html"];
+	filetypes = ["astro" "css"];
       };
 
       lua-ls = {
@@ -33,17 +36,31 @@
     };
   };
 
-  plugins.none-ls = {
+  plugins.conform-nvim = {
     enable = true;
 
-    sources = {
-      formatting = {
-        prettier = {
-          enable = true;
-        };
-      };
-
-      code_actions = { eslint_d.enable = true; };
+    formatAfterSave = {
+	lspFallback = true;
     };
+    
+    formatOnSave = {
+	lspFallback = true;
+	timeoutMs = 500;
+    };
+
+    notifyOnError = true;
+
+    formattersByFt = {
+	nix = ["alejandra"];
+	python = ["isort" "black"];
+	javascript = ["prettier" "prettierd"];
+	json = ["fixjson"];
+	nunjucks = ["djlint"];
+	njk = ["djlint" "prettierd"];
+	markdown = ["mdformat" "djlint"];
+	"*" = ["codespell"];
+	"_" = ["trim_whitespace"];
+    };
+
   };
 }

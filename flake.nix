@@ -8,6 +8,7 @@
   };
 
   outputs = {
+    self,
     nixvim,
     flake-parts,
     ...
