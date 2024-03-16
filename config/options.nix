@@ -3,8 +3,8 @@
 		options = {
 		      number = true;         
 		      relativenumber = true; 
-		      shiftwidth = 4;        
-		      tabstop = 4;        
+		      shiftwidth = 3;        
+		      tabstop = 3;        
 		      wrap = false;
 		      expandtab = true;
 		};
