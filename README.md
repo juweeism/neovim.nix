@@ -5,7 +5,7 @@ My earthly neovim setup is using [nixvim](https://github.com/nix-community/nixvi
 
 ### Run anywhere
 ```
-nix run github:jamibear/home.nix
+nix run github:juweeism/home.nix
 ```
 
 ### Don't have nix?
@@ -15,7 +15,7 @@ sh <(curl -L https://nixos.org/nix/install) --daemon
 ```
 nix run feature only works with Nix flakes, enable flakes by passing --experimental-features
 ```
-nix run github:jamibear/neovim.nix --experimental-features 'nix-command flakes'
+nix run github:juweeism/neovim.nix --experimental-features 'nix-command flakes'
 ```
 
 
