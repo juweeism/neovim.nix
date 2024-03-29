@@ -23,7 +23,7 @@
 	}
 	{
 	    event = ["BufRead" "BufNewFile"];
-	    pattern = ["*.njk"];
+	    pattern = ["*.njk" "*.astro"];
 	    command = "set filetype=html";
 	}
     ];

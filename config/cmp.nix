@@ -1,17 +1,12 @@
-# NVIM COMPLETIONS
-
-
 {
+    # completions and snippets
     plugins.luasnip = {
-	enable = true;
-	extraConfig = {
-	    enable_autosnippets = true;
-	    store_selection_keys = "<TAB>";
-	};
+        enable = true;
+        extraConfig = {
+            enable_autosnippets = true;
+            store_selection_keys = "<TAB>";
+        };
     };
-
-    plugins.cmp-nvim-lua.enable = true;
-    plugins.cmp_luasnip.enable = true;
 
     plugins.nvim-cmp = {
       enable = true;
@@ -27,7 +22,7 @@
 
       mapping = {
         "<CR>" = "cmp.mapping.confirm({ select = true })";
-	"<Tab>" = {
+	    "<Tab>" = {
           action = ''
             function(fallback)
               if cmp.visible() then
