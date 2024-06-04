@@ -24,7 +24,7 @@
         formattersByFt = {
             nix = ["alejandra" "nixfmt" "nixpkgs_fmt"];
             python = ["isort" "black"];
-            javascript = ["prettier" "prettierd"];
+            javascript = ["prettier" "prettierd" "eslint_d"];
             html = ["djlint"];
             json = ["fixjson"];
             markdown = ["mdformat" "djlint"];
