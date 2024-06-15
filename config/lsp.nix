@@ -26,7 +26,7 @@
             nix = ["alejandra" "nixfmt" "nixpkgs_fmt"];
             python = ["isort" "black"];
             javascript = ["prettier" "prettierd" "eslint_d"];
-            go = ["goimports" "gofmt"]
+            go = ["goimports" "gofmt"];
             html = ["djlint"];
             json = ["fixjson"];
             markdown = ["mdformat" "djlint"];
