@@ -8,6 +8,7 @@
       lightline-gruvbox-vim
       limelight-vim
       plenary-nvim # required for telescope
+      haskell-tools-nvim
     ];
 
     extraConfigLua = ''
