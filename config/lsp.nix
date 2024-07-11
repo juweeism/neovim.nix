@@ -12,6 +12,7 @@
             emmet_ls.enable = true;
             gopls.enable = true;
             hls.enable = true;
+            hls.autostart = true;
         };
     };
 
