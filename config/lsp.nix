@@ -11,6 +11,7 @@
             html.enable = true;
             emmet_ls.enable = true;
             gopls.enable = true;
+            hls.enable = true;
         };
     };
 
