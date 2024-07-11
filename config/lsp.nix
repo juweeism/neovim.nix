@@ -31,6 +31,7 @@
             html = ["djlint"];
             json = ["fixjson"];
             markdown = ["mdformat" "djlint"];
+            haskell = ["ormolu"];
             "*" = ["codespell"];
             "_" = ["trim_whitespace"];
         };
