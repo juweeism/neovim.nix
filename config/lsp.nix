@@ -11,11 +11,6 @@
             html.enable = true;
             emmet_ls.enable = true;
             gopls.enable = true;
-            hls.enable = true;
-            hls.cmd = [
-                "haskell-language-server-wrapper"
-                "--lsp"
-            ];
         };
     };
 
@@ -35,7 +30,6 @@
             html = ["djlint"];
             json = ["fixjson"];
             markdown = ["mdformat" "djlint"];
-            haskell = ["ormolu"];
             "*" = ["codespell"];
             "_" = ["trim_whitespace"];
         };
