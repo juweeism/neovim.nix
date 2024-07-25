@@ -7,6 +7,7 @@
 		      tabstop = 4;        
 		      wrap = false;
 		      expandtab = true;
+		      signcolumn = 'number';
 		};
 	};
 }
