@@ -24,12 +24,6 @@
 	# plugin keymaps 
 	{
 	    mode = "n";
-	    key = "<leader>fb";
-	    options.silent = true;
-	    action = ":Telescope file_browser<CR>";
-	}
-	{
-	    mode = "n";
 	    key = "-";
 	    options.silent = true;
 	    action = "<CMD>Oil<CR>";

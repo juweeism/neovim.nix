@@ -17,5 +17,6 @@
     ./telescope.nix
     ./oil.nix
     ./extra.nix
+    ./editor.nix
   ];
 }

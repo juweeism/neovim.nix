@@ -1,21 +1,16 @@
 {
-   plugins.telescope = {
-	enable = true;
+    plugins.telescope = {
+        enable = true;
 
-	extensions = {
-	    # file browser 
-	    file_browser = {
-		enable = true;
-	    };
+        extensions = {
+            fzf-native = {
+            enable = true;
+            };
+        };
 
-	    fzf-native = {
-		enable = true;
-	    };
-	};
-
-	keymaps = {
-	    "<leader>ff" = "find_files";
-	    "<leader>fz" = "live_grep";
-	};
+        keymaps = {
+            "<leader>ff" = "find_files";
+            "<leader>fz" = "live_grep";
+        };
     };
 }
