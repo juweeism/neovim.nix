@@ -11,8 +11,4 @@
 		    cursorline = true;
 		};
 	};
-
-	opts = {
-		fillchars = { eob = "+"; };
-	};
 }
