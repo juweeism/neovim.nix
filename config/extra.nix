@@ -28,10 +28,8 @@
 	ht.lsp.start()
     '';
 
-    opts = {
-	fillchars = {
-	    eob = "·";
-            vert = " ";
-	};
-    };
+    extraConfigVim = ''
+    set fillchars+=eob:·
+    set fillchars+=vert:\ 
+    '';
 }
