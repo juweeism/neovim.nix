@@ -9,9 +9,6 @@
 		    expandtab = true;
 		    signcolumn = "number";
 		    cursorline = true;
-			fillchars = {
-				eob = "·"
-			};
 		};
 	};
 }
