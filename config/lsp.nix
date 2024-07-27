@@ -4,6 +4,7 @@
         enable = true;
 
         servers = {
+            astro.enable = true;
             pyright.enable = true;
             nil_ls.enable = true;
             tsserver.enable = true;
