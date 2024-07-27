@@ -12,4 +12,5 @@
 	indent = {
 	    enable = true;
 	};
+    };
 }
