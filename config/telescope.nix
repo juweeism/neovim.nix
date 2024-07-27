@@ -7,6 +7,10 @@
 	    file_browser = {
 		enable = true;
 	    };
+
+	    fzf-native = {
+		enable = true;
+	    }
 	};
 
 	keymaps = {
