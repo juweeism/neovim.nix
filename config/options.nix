@@ -13,6 +13,6 @@
 	};
 
 	opts = {
-		fillchars = { eob = "+"};
+		fillchars = { eob = "+"; };
 	};
 }
