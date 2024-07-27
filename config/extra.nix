@@ -27,10 +27,10 @@
 	--- Start or attach the LSP client.
 	ht.lsp.start()
 
-	require'nvim-treesitter.configs'.setup {
-        highlight = {
-            enable = true,
-        }
+	vim.opt.fillchars = { 
+	    eob = "·",
+            vert = " "
+	}
     }
     '';
 }
