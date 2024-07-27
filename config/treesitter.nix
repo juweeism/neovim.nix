@@ -3,6 +3,6 @@
         enable = true;
 	ensureInstalled = "all";
 
-	highlight.enable = true;
+	settingsOptions.highlight.enable = true;
     };
 }
