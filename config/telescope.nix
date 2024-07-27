@@ -15,6 +15,7 @@
 
 	keymaps = {
 	    "<leader>ff" = "find_files";
+	    "<leader>fz" = "live_grep";
 	};
     };
 }
