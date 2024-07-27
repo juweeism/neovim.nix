@@ -8,6 +8,7 @@
 		      wrap = false;
 		      expandtab = true;
 		      signcolumn = "number";
+		      cursorline = true;
 		};
 	};
 }
