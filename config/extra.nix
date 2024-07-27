@@ -27,10 +27,7 @@
 	--- Start or attach the LSP client.
 	ht.lsp.start()
 
-	vim.opt.fillchars = { 
-	    eob = "·",
-            vert = " "
-	}
-    }
+	vim.opt.fillchars.eob = "·"
+	vim.opt.fillchars.vert = " "
     '';
 }
