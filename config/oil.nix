@@ -2,7 +2,7 @@
     plugins.oil = {
         enable = true;
         keymaps = {
-            "-" = "actions.parent";
+            "<leader>-" = "actions.parent";
         };
     };
 }
