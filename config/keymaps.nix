@@ -30,6 +30,12 @@
 	}
 	{
 	    mode = "n";
+	    key = "-";
+	    options.silent = true;
+	    action = "<CMD>Oil<CR>";
+	}
+	{
+	    mode = "n";
 	    key = "<leader>ll";
 	    options.silent = true;
 	    action = ":Limelight!!<CR>";
