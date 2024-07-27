@@ -10,7 +10,7 @@
 
 	    fzf-native = {
 		enable = true;
-	    }
+	    };
 	};
 
 	keymaps = {
