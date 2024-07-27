@@ -20,6 +20,18 @@
 	    options.silent = true;
 	    action = ":bprev<CR>";
 	}
+	{
+	    mode = "n";
+	    key = "<left>";
+	    options.silent = true;
+	    action = "<C-w><left>";
+	}
+	{
+	    mode = "n";
+	    key = "<right>";
+	    options.silent = true;
+	    action = "<C-w><right>";
+	}
 
 	# plugin keymaps 
 	{

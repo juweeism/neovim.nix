@@ -26,5 +26,13 @@
 	    pattern = ["*.njk"];
 	    command = "set filetype=html";
 	}
+    {
+        event = ["WinEnter"];
+        command = "set cursorline";
+    }
+    {
+        event = ["WinLeave"];
+        command = "set nocursorline";
+    }
     ];
 }
