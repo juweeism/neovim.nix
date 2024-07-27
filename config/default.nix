@@ -15,6 +15,7 @@
     ./cmp.nix
     ./treesitter.nix
     ./telescope.nix
+    ./oil.nix
     ./extra.nix
   ];
 }
