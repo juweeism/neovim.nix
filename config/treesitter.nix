@@ -4,4 +4,5 @@
 	ensureInstalled = "all";
 
 	settings.highlight.enable = true;
+    };
 }
