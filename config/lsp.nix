@@ -15,4 +15,8 @@
             gopls.enable = true;
         };
     };
+
+    plugins.lsp-format = {
+        enable = true;
+    };
 }
