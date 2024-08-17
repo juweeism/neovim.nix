@@ -15,5 +15,6 @@
         ./statusline.nix
         ./oil.nix
         ./telescope.nix
+        ./treesitter.nix
     ];
 }

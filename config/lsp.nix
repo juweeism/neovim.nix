@@ -4,6 +4,8 @@
         enable = true;
 
         servers = {
+            clangd.enable = true;
+            cmake.enable = true;
             volar.enable = true;
             tsserver.enable = true;
             cssls.enable = true;
