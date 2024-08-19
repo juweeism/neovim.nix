@@ -3,11 +3,11 @@
 	# Turning on limelight
 	{  
 	    event = ["VimEnter"];
-	    command = "let g:limelight_conceal_ctermfg = '#928374'";
+	    command = "let g:limelight_conceal_ctermfg = '#5f6d64'";
 	}
 	{
 	    event = ["VimEnter"];
-	    command = "let g:limelight_conceal_guifg = '#928374'";
+	    command = "let g:limelight_conceal_guifg = '#5f6d64'";
 	}
 	{
 	    event = ["VimEnter"];
