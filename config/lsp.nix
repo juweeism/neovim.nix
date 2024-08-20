@@ -4,7 +4,6 @@
         enable = true;
 
         servers = {
-            astro.enable = true;
             clangd.enable = true;
             cmake.enable = true;
             volar.enable = true;

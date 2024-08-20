@@ -26,6 +26,8 @@
 	local ht = require('haskell-tools')
 	--- Start or attach the LSP client.
 	ht.lsp.start()
+
+    require'lspconfig'.astro.setup{}
     '';
 
     extraConfigVim = ''
