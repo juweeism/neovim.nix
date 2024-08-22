@@ -5,7 +5,7 @@
 
         servers = {
             clangd.enable = true;
-            clangd.cmd = [ 'clangd --enable-config' ];
+            clangd.cmd = [ "clangd --enable-config" ];
             cmake.enable = true;
             volar.enable = true;
             tsserver.enable = true;
