@@ -8,7 +8,7 @@
             };
 
             whitespace = {
-                remove_blankline_trail = "false";
+                remove_blankline_trail = false;
             };
 
             scope = {
