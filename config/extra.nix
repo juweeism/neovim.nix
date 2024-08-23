@@ -40,6 +40,6 @@
 		TSText.fg = "#ececec";
 		TSTitle.fg = "#ececec";
 		"@string".link = "TSText";
-		"@spell".link = "TSText";
+		-- "@spell".link = "TSText";
 	};
 }
