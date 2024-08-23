@@ -9,6 +9,7 @@
         limelight-vim
         plenary-nvim # required for telescope
         haskell-tools-nvim
+	playground # treesitter playground
     ];
 
     extraConfigLua = ''
