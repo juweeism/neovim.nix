@@ -9,7 +9,7 @@
         limelight-vim
         plenary-nvim # required for telescope
         haskell-tools-nvim
-	playground # treesitter playground
+		playground # treesitter playground
     ];
 
     extraConfigLua = ''
@@ -35,4 +35,10 @@
     set fillchars+=eob:·
     set fillchars+=vert:\ 
     '';
+
+	highlightOverride = {
+		TSText.fg = "#ececec";
+		TSTitle.fg = "#ececec";
+		"@string".link = "TSText";
+	};
 }
