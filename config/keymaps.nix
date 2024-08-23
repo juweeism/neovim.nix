@@ -34,6 +34,18 @@
         }
         {
             mode = "n";
+            key = "<up>";
+            options.silent = true;
+            action = "<C-w><up>";
+        }
+        {
+            mode = "n";
+            key = "<down>";
+            options.silent = true;
+            action = "<C-w><down>";
+        }
+        {
+            mode = "n";
             key = "??";
             options.silent = true;
             action = ":lua vim.diagnostic.goto_next()<CR>";
