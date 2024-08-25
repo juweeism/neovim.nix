@@ -4,6 +4,7 @@
         enable = true;
 
         servers = {
+            elixirls.enable = true;
             clangd.enable = true;
             cmake.enable = true;
             volar.enable = true;
