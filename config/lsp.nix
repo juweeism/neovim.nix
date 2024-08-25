@@ -4,6 +4,7 @@
         enable = true;
 
         servers = {
+            elmls.enable = true;
             elixirls.enable = true;
             clangd.enable = true;
             cmake.enable = true;
