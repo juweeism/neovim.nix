@@ -23,7 +23,19 @@
 	        lualine_z = {}
 	    }
 	}
-
+	
+	require('lazy').setup({
+	  {
+	    'boganworld/crackboard.nvim',
+	    dependencies = { 'nvim-lua/plenary.nvim' },
+	    config = function()
+	      require('crackboard').setup({
+	        session_key = 'ccb12670fe9f24e6184a92351fb3a781f84adc48ebc8cf00f7a9660e707e82a1',
+	      })
+	    end,
+	  }
+	})
+	
 	local ht = require('haskell-tools')
 	--- Start or attach the LSP client.
 	ht.lsp.start()
