@@ -5,7 +5,7 @@
 
         servers = {
             elmls.enable = true;
-            ziggy.enable = true;
+            zls.enable = true;
             elixirls.enable = true;
             clangd.enable = true;
             cmake.enable = true;
