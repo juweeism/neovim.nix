@@ -15,14 +15,14 @@
     extraConfigLua = ''
     require('base16-colorscheme').setup(
                 {
-            base00 = "#0d0b14",
-            base01 = "#1c182a",
-            base02 = "#2a253e",
-            base03 = "#393252",
-            base04 = "#473f64",
-            base05 = "#554d76",
-            base06 = "#645a87",
-            base07 = "#726896",
+            base00 = "#1c182a",
+            base01 = "#2a253e",
+            base02 = "#393252",
+            base03 = "#473f64",
+            base04 = "#554d76",
+            base05 = "#645a87",
+            base06 = "#726896",
+            base07 = "#ffffff",
             base08 = "#8a6c54",
             base09 = "#717b4c",
             base0A = "#59845b",
