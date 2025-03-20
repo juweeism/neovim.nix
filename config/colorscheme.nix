@@ -1,7 +1,7 @@
 {
     colorschemes.base16 = {
         enable = true;
-        colorscheme = "solarized-dark";
+        colorscheme = "atelier-savanna";
         settings = {
             cmp = true;
             dapui = true;
