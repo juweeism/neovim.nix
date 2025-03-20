@@ -13,26 +13,6 @@
     ];
 
     extraConfigLua = ''
-    require('base16-colorscheme').setup(
-                {
-            base00 = "#1c182a",
-            base01 = "#2a253e",
-            base02 = "#393252",
-            base03 = "#473f64",
-            base04 = "#554d76",
-            base05 = "#645a87",
-            base06 = "#726896",
-            base07 = "#ffffff",
-            base08 = "#8a6c54",
-            base09 = "#717b4c",
-            base0A = "#59845b",
-            base0B = "#508478",
-            base0C = "#5b7991",
-            base0D = "#746b99",
-            base0E = "#8d618a",
-            base0F = "#96626e",
-        }
-        )
 
 	require('lualine').setup {
 	    tabline = {
