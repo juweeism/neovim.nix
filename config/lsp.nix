@@ -15,6 +15,7 @@
             html.enable = true;
             emmet-ls.enable = true;
             biome.enable = true;
+            svelte.enable = true;
 
             nil-ls.enable = true;
             gopls.enable = true;
