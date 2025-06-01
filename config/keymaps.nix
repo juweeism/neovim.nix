@@ -46,9 +46,23 @@
         }
         {
             mode = "n";
-            key = "??";
+            key = "??"; # show diagnostic
             options.silent = true;
             action = ":lua vim.diagnostic.goto_next()<CR>";
+        }
+
+        # terminal mode
+        {
+            mode = "n";
+            key = "<C-\\>";
+            options.silent = true;
+            action = ":terminal<CR>";
+        }
+        {
+            mode = "t";
+            key = "<C-\\";
+            options.silent = true;
+            action = "<C-\\><C-n>";
         }
 
         # plugin keymaps 
