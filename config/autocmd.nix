@@ -34,6 +34,14 @@
         event = ["WinLeave"];
         command = "set nocursorline";
     }
+    {
+        event = ["WinEnter"];
+        command = "setlocal number relativenumber";
+    }
+    {
+        event = ["WinLeave"];
+        command = "setlocal nonumber norelativenumber";
+    }
 	{
 		event = ["TermOpen"];
 		command = "setlocal nonumber norelativenumber";

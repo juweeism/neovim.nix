@@ -13,5 +13,7 @@
     highlightOverride = {
         Normal.bg = "NONE";
         Normal.ctermbg = "NONE";
+        NormalNC.bg = "NONE";
+        NormalNC.ctermbg = "NONE";
     };
 }
