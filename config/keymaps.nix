@@ -60,7 +60,7 @@
         }
         {
             mode = "t";
-            key = "<C-\\";
+            key = "<C-\\>";
             options.silent = true;
             action = "<C-\\><C-n>";
         }
