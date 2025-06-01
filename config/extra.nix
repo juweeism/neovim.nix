@@ -8,7 +8,7 @@
         lightline-gruvbox-vim
         limelight-vim
         plenary-nvim # required for telescope
-        haskell-tools-nvim
+    #    haskell-tools-nvim
 		playground # treesitter playground
     ];
 
@@ -25,9 +25,9 @@
 	    }
 	}
 	
-	local ht = require('haskell-tools')
+	--- local ht = require('haskell-tools')
 	--- Start or attach the LSP client.
-	ht.lsp.start()
+	--- ht.lsp.start()
 
     require'lspconfig'.astro.setup{}
     '';
