@@ -15,5 +15,7 @@
         Normal.ctermbg = "NONE";
         NormalNC.bg = "NONE";
         NormalNC.ctermbg = "NONE";
+        LineNr.bg = "NONE";
+        LineNr.ctermbg = "NONE";
     };
 }
