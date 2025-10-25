@@ -19,7 +19,10 @@
 
             nil-ls.enable = true;
             gopls.enable = true;
+
+            lua-ls.enable = true;
         };
+
     };
 
     plugins.lsp-format = {
